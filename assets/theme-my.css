@@ -486,21 +486,36 @@
 }
 
 .theme-my .layui-form-item {
-    margin-top: 15px;
     clear: both;
     *zoom: 1;
+}
+
+.theme-my .layui-form-item {
+    margin-top: 15px;
+}
+
+.theme-my .layui-form-item .layui-inline {
+    margin: 0;
 }
 
 .theme-my .layui-form-label {
     float: left;
     display: block;
     padding: 9px 0;
-    margin-left: 20px;
     margin-right: 5px;
-    width: 80px;
     font-weight: 400;
     line-height: 20px;
     text-align: right;
+}
+
+.theme-my .model-form .layui-form-label {
+    padding-left: 20px;
+    width: 80px;
+}
+
+.theme-my .toolbar .layui-form-label {
+    padding-left: 15px;
+    width: auto;
 }
 
 .theme-my .layui-input-block {
