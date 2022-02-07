@@ -1,0 +1,16 @@
+
+*~
+*.bak
+*.cache
+*.lock
+*.log
+*.new
+*.old
+*.sublime-project
+*.sublime-workspace
+*.swap
+*.swp
+
+.DS_Store
+.idea/
+#vendor/*

@@ -1,0 +1,133 @@
+[
+  {
+    "name": "工作台",
+    "icon": "layui-icon layui-icon-home",
+    "url": "#/console/workplace"
+  },
+  {
+    "name": "系统管理",
+    "icon": "layui-icon layui-icon-set",
+    "url": "javascript:;",
+    "subMenus": [
+      {
+        "name": "用户管理",
+        "url": "#/system/user"
+      },
+      {
+        "name": "角色管理",
+        "url": "#/system/role"
+      },
+      {
+        "name": "权限管理",
+        "url": "#/system/authorities"
+      },
+      {
+        "name": "字典管理",
+        "url": "#/system/dictionary"
+      },
+      {
+        "name": "机构管理",
+        "url": "#/system/organization"
+      },
+      {
+        "name": "登录日志",
+        "url": "#/system/login-record"
+      }
+    ]
+  },
+  {
+    "name": "经典实例",
+    "icon": "layui-icon layui-icon-app",
+    "url": "javascript:;",
+    "subMenus": [
+      {
+        "name": "弹窗实例",
+        "url": "#/example/dialog"
+      },
+      {
+        "name": "课程管理",
+        "url": "#/example/course"
+      },
+      {
+        "name": "排课管理",
+        "url": "#/example/calendar"
+      },
+      {
+        "name": "添加试题",
+        "url": "#/example/question"
+      },
+      {
+        "name": "文件管理",
+        "url": "#/example/file"
+      },
+      {
+        "name": "表格CRUD",
+        "url": "#/example/table-crud"
+      },
+      {
+        "name": "路由传参",
+        "url": "#/example/router-demo"
+      }
+    ]
+  },
+  {
+    "name": "模板页面",
+    "icon": "layui-icon layui-icon-template",
+    "url": "javascript:;",
+    "subMenus": [
+      {
+        "name": "表单页",
+        "url": "javascript:;",
+        "subMenus": [
+          {
+            "name": "基础表单",
+            "url": "#/template/form/form-basic"
+          },
+          {
+            "name": "复杂表单",
+            "url": "#/template/form/form-advance"
+          },
+          {
+            "name": "分步表单",
+            "url": "#/template/form/form-step"
+          }
+        ]
+      },
+      {
+        "name": "表格页",
+        "url": "javascript:;",
+        "subMenus": [
+          {
+            "name": "数据表格",
+            "url": "#/template/table/table-basic"
+          },
+          {
+            "name": "复杂表格",
+            "url": "#/template/table/table-advance"
+          },
+          {
+            "name": "图片表格",
+            "url": "#/template/table/table-img"
+          },
+          {
+            "name": "卡片列表",
+            "url": "#/template/table/table-card"
+          }
+        ]
+      },
+      {
+        "name": "个人中心",
+        "url": "#/user/info"
+      },
+      {
+        "name": "404错误",
+        "url": "#/console/error-404"
+      }
+    ]
+  },
+  {
+    "name": "路由传参",
+    "url": "#/example/router-param",
+    "show": false
+  }
+]
