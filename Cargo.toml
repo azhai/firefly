@@ -1,0 +1,14 @@
+[package]
+name = "firefly"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "*"
+hyper = { version = "*", features = ["full"] }
+serde = "*"
+sqlx = { version = "*", features = ["runtime-tokio-rustls", "any", "postgres"] }
+tokio = { version = "*", features = ["full"] }
+tower = "*"
+tracing = "*"
+tracing-subscriber = { version="*", features = ["env-filter"] }
