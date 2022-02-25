@@ -33,7 +33,7 @@ async fn main() {
     tracing_subscriber::fmt::init();
 
     let db_connection_str = std::env::var("DATABASE_URL")
-        .unwrap_or_else(|_| "postgres://postgres:password@localhost".to_string());
+        .unwrap_or_else(|_| "postgres://dba:pass@127.0.0.1/db_gitea".to_string());
 
     // setup connection pool
     let pool = PgPoolOptions::new()

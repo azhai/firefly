@@ -1,0 +1,68 @@
+application:
+   debug: true
+   plural_table: false  #表名是否使用复数
+
+connections:
+   backup:
+      driver_name: "sqlite"
+      params:
+         database: "./test.db"
+
+   cache:
+      driver_name: "redis"
+      params:
+         host: "127.0.0.1"
+         port: 6379
+         password: ""
+         database: "0"
+
+   default:
+      driver_name: "mysql"
+      table_prefix: "t_"
+      read_only: false
+      params:
+         host: "127.0.0.1"
+         port: 3306
+         username: "dba"
+         password: "pass"
+         database: "test"
+         options: { charset: "utf8mb4" }
+
+micro_services:
+   -  protocol: "tcp"
+      params:
+         host: "127.0.0.1"
+         port: 8972
+
+reverse_targets:
+   -  type: codes
+      language: golang
+      multiple_files: false
+      output_dir: ./webapi/models
+      exclude_tables:
+         - people
+      template: |
+         package db
+
+         {{$ilen := len .Imports}}
+         {{if gt $ilen 0}}
+         import (
+           {{range .Imports}}"{{.}}"{{end}}
+         )
+         {{end}}
+
+         {{$table_prefix := .Target.TablePrefix}}
+         {{range .Tables}}
+         {{$class := TableMapper .Name}}
+         type {{$class}} struct {
+         {{$table := .}}
+         {{range .ColumnsSeq}}{{$col := $table.GetColumn .}}	{{ColumnMapper $col.Name}}	{{Type $col}} `{{Tag $table $col}}`
+         {{end}}
+         }
+
+         {{if ne $table_prefix ""}}
+         func ({{$class}}) TableName() string {
+         	return "{{$table_prefix}}{{$table.Name}}"
+         }
+         {{end}}
+         {{end}}

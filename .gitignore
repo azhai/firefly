@@ -13,9 +13,5 @@
 
 .DS_Store
 .idea/
-#vendor/*
-
-
-# Added by cargo
-
-/target
+/golang/*/vendor
+/rust/*/target

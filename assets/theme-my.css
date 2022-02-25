@@ -36,7 +36,7 @@
 
 .theme-my .layui-layout-admin .layui-header .layui-nav .layui-this:after,
 .theme-my .layui-layout-admin .layui-header .layui-nav-bar {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 
@@ -51,11 +51,11 @@
 .theme-my .layui-nav-tree .layui-nav-child dd.layui-this a,
 .theme-my .layui-nav-tree .layui-this > a,
 .theme-my .layui-nav-tree .layui-this > a:hover {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 .theme-my .layui-nav-tree > .layui-nav-item > a:before {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 
@@ -94,7 +94,7 @@
 }
 
 .theme-my .layui-layout-admin .layui-body > .layui-tab > .layui-tab-title li.layui-this {
-    color: #00babd;
+    color: #16A085;
     background-color: #fff;
 }
 
@@ -161,13 +161,13 @@
 }
 
 .theme-my .layui-body-header-title {
-    border-left-color: #00babd;
+    border-left-color: #16A085;
 }
 
 /* admin dialog */
 .theme-my .layui-layer.layui-layer-admin .layui-layer-title {
     color: #ffffff;
-    background-color: #00babd;
+    background-color: #16A085;
     
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -178,34 +178,34 @@
 
 
 .theme-my .layui-layer.layui-layer-admin .layui-layer-btn .layui-layer-btn0 {
-    border-color: #00babd;
-    background-color: #00babd;
+    border-color: #16A085;
+    background-color: #16A085;
 }
 
 
 /* other */
 .theme-my .more-theme-item:hover,
 .theme-my .more-theme-item.active {
-    border-color: #00babd;
+    border-color: #16A085;
 }
 
 .theme-my .btn-circle {
-    background: #00babd;
+    background: #16A085;
 }
 
 .theme-my .ball-loader > span,
 .theme-my .signal-loader > span {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 .theme-my .text-primary,
 .theme-my .layui-link {
-    color: #00babd !important;;
+    color: #16A085 !important;;
 }
 
 /* button */
 .theme-my .layui-btn {
-    background-color: #00babd;
+    background-color: #16A085;
     box-shadow: 0 1px 0 rgba(0, 0, 0, .03);
 }
 
@@ -213,13 +213,13 @@
 .theme-my .layui-input:focus,
 .theme-my .layui-textarea:focus,
 .theme-my xm-select:hover {
-    border-color: #00babd !important;
+    border-color: #16A085 !important;
 }
 
 /* switch */
 .theme-my .layui-form-onswitch {
-    border-color: #00babd;
-    background-color: #00babd;
+    border-color: #16A085;
+    background-color: #16A085;
 }
 
 /* radio */
@@ -227,184 +227,189 @@
 .theme-my .layui-form-radioed > i,
 .theme-my .layui-form-checked i,
 .theme-my .layui-form-checked:hover i {
-    color: #00babd;
+    color: #16A085;
 }
 
 /* checkbox */
 .theme-my .layui-form-checked[lay-skin=primary] i,
 .theme-my .layui-form-checked span,
 .theme-my .layui-form-checked:hover span {
-    border-color: #00babd !important;
-    background-color: #00babd;
+    border-color: #16A085 !important;
+    background-color: #16A085;
 }
 
 .theme-my .layui-form-checkbox[lay-skin=primary] i:hover,
 .theme-my .layui-form-checkbox[lay-skin=primary]:hover i {
-    border-color: #00babd;
+    border-color: #16A085;
 }
 
 /* select */
 .theme-my .layui-form-select dl dd.layui-this {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 /* laypage */
 .theme-my .layui-laypage .layui-laypage-curr .layui-laypage-em {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 .theme-my .layui-laypage input:focus,
 .theme-my select:focus {
-    border-color: #00babd !important;
+    border-color: #16A085 !important;
 }
 
 .theme-my .layui-laypage a:hover {
-    color: #00babd;
+    color: #16A085;
 }
 
 /* tab */
 .theme-my .layui-tab-brief > .layui-tab-title .layui-this {
-    color: #00babd;
+    color: #16A085;
 }
 
 .theme-my .layui-tab-brief > .layui-tab-more li.layui-this:after,
 .theme-my .layui-tab-brief > .layui-tab-title .layui-this:after {
-    border-color: #00babd !important;
+    border-color: #16A085 !important;
 }
 
 .theme-my .layui-tab.layui-tab-vertical > .layui-tab-title > li.layui-this {
-    border-color: #00babd;
-    color: #00babd;
+    border-color: #16A085;
+    color: #16A085;
 }
 
 /* breadcrumb */
 .theme-my .layui-breadcrumb a:hover {
-    color: #00babd !important;
+    color: #16A085 !important;
 }
 
 /* laydate */
 .theme-my .layui-laydate-footer span:hover,
 .theme-my .layui-laydate-header i:hover,
 .theme-my .layui-laydate-header span:hover {
-    color: #00babd;
+    color: #16A085;
 }
 
 .theme-my .layui-laydate .layui-this {
-    background-color: #00babd !important;
+    background-color: #16A085 !important;
 }
 
 .theme-my .layui-laydate-content td.laydate-selected {
-    background-color: rgba(0,186,189,.1);
+    background-color: rgba(22,160,133,.1);
 }
 
 .theme-my .laydate-selected:hover {
-    background-color: rgba(0,186,189,.1) !important;
+    background-color: rgba(22,160,133,.1) !important;
 }
 
 /* timeline */
 .theme-my .layui-timeline-axis {
-    color: #00babd;
+    color: #16A085;
 }
 
 /* transfer */
 .theme-my .layui-transfer-active .layui-btn {
-    background-color: #00babd !important;
-    border-color: #00babd !important;
+    background-color: #16A085 !important;
+    border-color: #16A085 !important;
 }
 
 /* progress-bar */
 .theme-my .layui-progress-bar {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 /* slider */
 .theme-my .layui-slider-bar {
-    background-color: #00babd !important;
+    background-color: #16A085 !important;
 }
 
 .theme-colorful .layui-slider-wrap-btn {
-    border-color: #00babd !important;
+    border-color: #16A085 !important;
 }
 
 /* steps */
 .theme-my .layui-tab.layui-steps > .layui-tab-title > li > .layui-icon {
-    color: #00babd;
+    color: #16A085;
 }
 
 .theme-my .layui-tab.layui-steps > .layui-tab-title > li > .layui-icon.layui-icon-ok,
 .theme-my .layui-elem-quote {
-    border-color: #00babd;
+    border-color: #16A085;
 }
 
 .theme-my .layui-tab.layui-steps > .layui-tab-title > li:before,
 .theme-my .layui-tab.layui-steps > .layui-tab-title > li.layui-this > .layui-icon.layui-icon-ok {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 .theme-my .layui-tab.layui-steps.layui-steps-simple > .layui-tab-title > li {
-    background-color: rgba(0,186,189,.5);
+    background-color: rgba(22,160,133,.5);
 }
 
 .theme-my .layui-tab.layui-steps.layui-steps-simple > .layui-tab-title > li.layui-this {
-    background-color: #00babd;
+    background-color: #16A085;
 }
 
 .theme-my .layui-tab.layui-steps.layui-steps-simple > .layui-tab-title > li:after {
-    border-left-color: rgba(0,186,189,.5) !important;
+    border-left-color: rgba(22,160,133,.5) !important;
 }
 
 .theme-my .layui-tab.layui-steps.layui-steps-simple > .layui-tab-title > li.layui-this + li:after {
-    border-left-color: #00babd !important;
+    border-left-color: #16A085 !important;
 }
 
 /* xmSelect */
 .theme-my xm-select .xm-body .xm-option .xm-option-icon {
-    border-color: #00babd !important;
+    border-color: #16A085 !important;
 }
 
 .theme-my xm-select .xm-body .xm-option.selected .xm-option-icon,
 .theme-my xm-select > .xm-body .xm-toolbar .toolbar-tag:hover,
 .theme-my .ew-xmselect-tree xm-select .xm-body .xm-option.selected .xm-option-content {
-    color: #00babd !important;
+    color: #16A085 !important;
 }
 
 .theme-my xm-select .xm-label .xm-label-block,
 .theme-my xm-select > .xm-body .xm-option.hide-icon.selected {
-    background-color: #00babd !important;
+    background-color: #16A085 !important;
 }
 
 /* tagsinput */
 .theme-my div.tagsinput span.tag {
-    background: #00babd;
+    background: #16A085;
 }
 
 /* cascader */
 .theme-my .ew-cascader-dropdown-list-item.active,
 .theme-my .ew-cascader-dropdown-list-item.active .ew-icon-right {
-    color: #00babd;
+    color: #16A085;
 }
 
 /* city-select */
 .theme-my .city-select a.active {
     color: #fff !important;
-    background-color: #00babd !important;
+    background-color: #16A085 !important;
 }
 
 .theme-my .city-select a:hover,
 .theme-my .city-select a:focus {
-    background-color: rgba(0,186,189,.07);
-    color: #00babd;
+    background-color: rgba(22,160,133,.07);
+    color: #16A085;
 }
 
 .theme-my .city-picker-span > .title > span:hover {
-    background-color: rgba(0,186,189,.07);
+    background-color: rgba(22,160,133,.07);
 }
 
 .theme-my .city-select-tab > a.active {
-    color: #00babd;
+    color: #16A085;
 }
 
 /** ---------------------------theme-my主题custom----------------------------------- */
+
+.theme-my {
+    box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+    /* transform: scale(1.0); */
+}
 
 .theme-my .layui-fluid {
     margin: 5px 10px;
@@ -419,12 +424,12 @@
     box-shadow: 0 1px 0 rgba(0, 0, 0, .03);
 }
 
-.theme-my .layui-card {
+.theme-my .layui-fluid .layui-card {
     border-radius: 4px;
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
 }
 
-.theme-my .layui-card-body {
+.theme-my .layui-fluid .layui-card .layui-card-body {
     padding: 10px 15px;
     line-height: 24px;
 }
@@ -433,13 +438,28 @@
     border-radius: 4px;
 }
 
-.theme-my .layui-table-view {
+.theme-my .layui-table tr {
+    border-bottom: 1px solid #e6e6e6;
+    background: transparent;
+}
+
+.theme-my .layui-table-header, .theme-my .layui-table-header thead tr {
+    background-color: #ECF0F1;
+}
+
+.theme-my .layui-table td, .theme-my .layui-table th {
     border: 0;
+    background: transparent;
+}
+
+.theme-my .layui-table-tool, .theme-my .layui-table-total, .theme-my .layui-table-view,
+.theme-my .layui-table[lay-skin=line], .theme-my .layui-table[lay-skin=row] {
+    border: 0;
+    background: transparent;
 }
 
 .theme-my .layui-table-tool {
     background-color: #fff;
-    border: 0;
 }
 
 .theme-my .layui-table-box {
@@ -471,7 +491,7 @@
 }
 
 .theme-my .layui-nav-tree > .layui-nav-item a:hover {
-    background-color: #004749;
+    background-color: #95A5A6;
 }
 
 .theme-my .model-form {
