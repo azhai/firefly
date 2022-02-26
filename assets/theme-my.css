@@ -4,7 +4,7 @@
 .theme-my .layui-layout-admin .layui-header .layui-logo {
     color: #dddddd;
     background-color: #191a23;
-    
+
 }
 
 /* header */
@@ -44,7 +44,7 @@
 /* side */
 .theme-my .layui-layout-admin .layui-side {
     background-color: #191a23;
-    
+
 }
 
 
@@ -168,11 +168,11 @@
 .theme-my .layui-layer.layui-layer-admin .layui-layer-title {
     color: #ffffff;
     background-color: #16A085;
-    
+
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    
-    
+
+
 }
 
 
@@ -421,12 +421,12 @@
 }
 
 .theme-my .layui-layer.layui-layer-admin .layui-layer-btn a {
-    box-shadow: 0 1px 0 rgba(0, 0, 0, .03);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .06);
 }
 
 .theme-my .layui-fluid .layui-card {
     border-radius: 4px;
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .06);
 }
 
 .theme-my .layui-fluid .layui-card .layui-card-body {
@@ -439,7 +439,7 @@
 }
 
 .theme-my .layui-table tr {
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid rgba(230, 230, 230, .5);
     background: transparent;
 }
 

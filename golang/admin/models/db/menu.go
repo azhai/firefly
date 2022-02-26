@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/astro-bug/gondor/webapi/models"
+	"admin/webapi/models"
 	"xorm.io/xorm"
 )
 

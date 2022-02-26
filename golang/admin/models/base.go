@@ -3,8 +3,8 @@ package models
 import (
 	"time"
 
-	"github.com/astro-bug/gondor/webapi/config"
-	"github.com/astro-bug/gondor/webapi/config/dialect"
+	"admin/webapi/config"
+	"admin/webapi/config/dialect"
 	"github.com/azhai/gozzo-db/session"
 	"github.com/azhai/gozzo-utils/redisw"
 	"github.com/k0kubun/pp"

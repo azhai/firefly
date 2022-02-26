@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/astro-bug/gondor/webapi/config"
-	"github.com/astro-bug/gondor/webapi/config/dialect"
+	"admin/webapi/config"
+	"admin/webapi/config/dialect"
 	"github.com/smallnest/rpcx/client"
 	"github.com/smallnest/rpcx/server"
 )

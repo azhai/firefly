@@ -2,7 +2,7 @@ package webapi
 
 import (
 	"gitee.com/azhai/fiber-u8l/v2"
-	"github.com/astro-bug/gondor/webapi/handlers"
+	"admin/webapi/handlers"
 )
 
 func AddRoutes(r fiber.Router) {

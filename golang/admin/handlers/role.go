@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"gitee.com/azhai/fiber-u8l/v2"
-	"github.com/astro-bug/gondor/webapi/fakes"
-	"github.com/astro-bug/gondor/webapi/models/db"
+	"admin/webapi/fakes"
+	"admin/webapi/models/db"
 )
 
 // 完整菜单

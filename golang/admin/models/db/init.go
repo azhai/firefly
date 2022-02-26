@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/astro-bug/gondor/webapi/config"
-	"github.com/astro-bug/gondor/webapi/models"
+	"admin/webapi/config"
+	"admin/webapi/models"
 	"github.com/azhai/gozzo-db/session"
 	_ "github.com/go-sql-driver/mysql"
 	"xorm.io/xorm"

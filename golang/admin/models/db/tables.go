@@ -3,7 +3,7 @@ package db
 import (
 	"time"
 
-	"github.com/astro-bug/gondor/webapi/models"
+	"admin/webapi/models"
 )
 
 type Access struct {

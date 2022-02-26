@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"gitee.com/azhai/fiber-u8l/v2"
-	"github.com/astro-bug/gondor/webapi/models/db"
-	"github.com/astro-bug/gondor/webapi/utils"
+	"admin/webapi/models/db"
+	"admin/webapi/utils"
 	"github.com/azhai/gozzo-db/session"
 )
 

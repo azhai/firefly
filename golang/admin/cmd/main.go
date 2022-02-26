@@ -7,11 +7,11 @@ import (
 	"gitee.com/azhai/fiber-u8l/v2"
 	"gitee.com/azhai/fiber-u8l/v2/middleware/compress"
 	"gitee.com/azhai/fiber-u8l/v2/middleware/cors"
-	"github.com/astro-bug/gondor/webapi"
-	"github.com/astro-bug/gondor/webapi/config"
-	"github.com/astro-bug/gondor/webapi/handlers"
-	"github.com/astro-bug/gondor/webapi/models/db"
-	"github.com/astro-bug/gondor/webapi/services"
+	"admin/webapi"
+	"admin/webapi/config"
+	"admin/webapi/handlers"
+	"admin/webapi/models/db"
+	"admin/webapi/services"
 )
 
 var (
