@@ -1,13 +1,14 @@
-module admin
+module firefly
 
 go 1.18
 
 require (
-	gitee.com/azhai/fiber-u8l/v2 v2.27.0
+	gitee.com/azhai/fiber-u8l/v2 v2.28.0
 	github.com/astro-bug/gondor v0.2.0
 	github.com/azhai/gozzo-db v0.6.12
 	github.com/azhai/gozzo-utils v0.4.3
 	github.com/bxcodec/faker/v3 v3.7.0
+	github.com/cloudwego/netpoll v0.2.1
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/k0kubun/pp v3.0.1+incompatible
 	github.com/muyo/sno v1.2.1
@@ -23,6 +24,7 @@ require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/apache/thrift v0.15.0 // indirect
 	github.com/armon/go-metrics v0.3.10 // indirect
+	github.com/bytedance/gopkg v0.0.0-20210705062217-74c74ebadcae // indirect
 	github.com/cenk/backoff v2.2.1+incompatible // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
@@ -60,7 +62,7 @@ require (
 	github.com/juju/ratelimit v1.0.1 // indirect
 	github.com/julienschmidt/httprouter v1.3.0 // indirect
 	github.com/kavu/go_reuseport v1.5.0 // indirect
-	github.com/klauspost/compress v1.14.2 // indirect
+	github.com/klauspost/compress v1.14.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/klauspost/reedsolomon v1.9.15 // indirect
 	github.com/lucas-clemente/quic-go v0.24.0 // indirect
@@ -101,7 +103,7 @@ require (
 	golang.org/x/mod v0.5.1 // indirect
 	golang.org/x/net v0.0.0-20220111093109-d55c255bac03 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20220209214540-3681064d5158 // indirect
+	golang.org/x/sys v0.0.0-20220227234510-4e6760a101f9 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/tools v0.1.8 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect

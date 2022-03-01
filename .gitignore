@@ -13,5 +13,6 @@
 
 .DS_Store
 .idea/
+.vscode/
 /golang/*/vendor
 /rust/*/target
