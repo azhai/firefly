@@ -2,7 +2,7 @@ package webapi
 
 import (
 	"gitee.com/azhai/fiber-u8l/v2"
-	"admin/webapi/handlers"
+	"firefly/admin/webapi/handlers"
 )
 
 func AddRoutes(r fiber.Router) {

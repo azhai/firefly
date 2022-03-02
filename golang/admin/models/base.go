@@ -3,8 +3,8 @@ package models
 import (
 	"time"
 
-	"admin/webapi/config"
-	"admin/webapi/config/dialect"
+	"firefly/admin/webapi/config"
+	"firefly/admin/webapi/config/dialect"
 	"github.com/azhai/gozzo-db/session"
 	"github.com/azhai/gozzo-utils/redisw"
 	"github.com/k0kubun/pp"

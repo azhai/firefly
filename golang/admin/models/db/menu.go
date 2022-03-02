@@ -1,7 +1,7 @@
 package db
 
 import (
-	"admin/webapi/models"
+	"firefly/admin/webapi/models"
 	"xorm.io/xorm"
 )
 

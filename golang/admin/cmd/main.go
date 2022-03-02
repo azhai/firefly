@@ -7,11 +7,11 @@ import (
 	"gitee.com/azhai/fiber-u8l/v2"
 	"gitee.com/azhai/fiber-u8l/v2/middleware/compress"
 	"gitee.com/azhai/fiber-u8l/v2/middleware/cors"
-	"admin/webapi"
-	"admin/webapi/config"
-	"admin/webapi/handlers"
-	"admin/webapi/models/db"
-	"admin/webapi/services"
+	"firefly/admin/webapi"
+	"firefly/admin/webapi/config"
+	"firefly/admin/webapi/handlers"
+	"firefly/admin/webapi/models/db"
+	"firefly/admin/webapi/services"
 )
 
 var (

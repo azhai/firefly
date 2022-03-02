@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"admin/webapi/config"
-	"admin/webapi/config/dialect"
+	"firefly/admin/webapi/config"
+	"firefly/admin/webapi/config/dialect"
 	"github.com/smallnest/rpcx/client"
 	"github.com/smallnest/rpcx/server"
 )

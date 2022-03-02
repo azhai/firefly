@@ -3,7 +3,7 @@ package db
 import (
 	"time"
 
-	"admin/webapi/models"
+	"firefly/admin/webapi/models"
 )
 
 type Access struct {

@@ -1,8 +1,8 @@
 package db
 
 import (
-	"admin/webapi/config"
-	"admin/webapi/models"
+	"firefly/admin/webapi/config"
+	"firefly/admin/webapi/models"
 	"github.com/azhai/gozzo-db/session"
 	_ "github.com/go-sql-driver/mysql"
 	"xorm.io/xorm"
